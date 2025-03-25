@@ -17,6 +17,7 @@ export default function Header({ nonSticky = false }) {
         src={Imglogo}
         alt="lettre-flix"
         className="w-40 h-20 rounded-lg mg-5 len sm:w-[5rem] sm:h-[3rem]"
+        onClick={() => navigate("/")}
       />
       <div className="flex justify-between space-x-6">
         <button
