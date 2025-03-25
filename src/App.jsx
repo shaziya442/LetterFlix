@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./components/Header/Header.jsx";
 import Signup from "./components/Signup.jsx";
 import Login from "./components/Login.jsx";
-import Home from "./pages/home.jsx";
+import Home from "./pages/Home.jsx";
 
 function App() {
   const location = useLocation();
