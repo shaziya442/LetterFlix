@@ -19,7 +19,7 @@ export default function AddressForm() {
       </p>
       <div
         className="flex flex-wrap items-center justify-center max-w-[768px] text-center mx-auto font-[Lora] mr-7 ml-[300px] text-grey-400 space-y-[30px] sm:mx-[0px]"
-        onClick={() => navigate("addressform")}
+        onClick={() => navigate("/addressform")}
       >
         <div className="inline-block m-0 font-[Lora] bg-white italic text-xl mt-[25px] text-gray-700 shadow-[6px_6px_0_0_#fbbf24]">
           <a
