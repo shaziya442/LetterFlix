@@ -12,3 +12,15 @@ body {
 html {
   overflow-x: hidden;
 }
+
+/* Default for larger screens */
+html {
+  font-size: 16px; /* 1rem = 16px */
+}
+
+/* Adjust for small screens */
+@media (max-width: 640px) {
+  html {
+    font-size: 13px; /* 1rem = 10px */
+  }
+}

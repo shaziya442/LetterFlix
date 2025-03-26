@@ -1,12 +1,12 @@
 export default function Faq() {
   return (
-    <div className="mx-auto my-[16rem] max-w-3xl p-8 flex flex-col m justify-center h-screen text-contrast box-border sm:mt-[23px] sm:mt-0 sm:h-[177vh] sm:mb-2.5">
+    <div className="mx-auto my-[16rem] max-w-3xl p-8 flex flex-col m justify-center h-screen text-contrast box-border sm:mt-0 sm:h-[100%] sm:mb-2.5">
       <div>
         <h2 className="text-4xl mb-12 mt-12 text-blue-900 font-bold italic font-[Playfair]">
           FAQs
         </h2>
       </div>
-      <div className="h-11 m-0"></div>
+      <div className="h-11 m-0 sm:hidden"></div>
       <div>
         <h3 className="font-[Playfair] text-4xl mb-3 italic font-semibold leading-[1.4]">
           How does it work?

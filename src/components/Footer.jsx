@@ -36,7 +36,7 @@ export default function Footer() {
             <li className="!ml-6 !mb-4 list-item">
               <a href="">Twitter</a>
             </li>
-            <li>
+            <li className="!ml-6 !mb-4 list-item">
               <a href="">Pinterest</a>
             </li>
             <li className="!ml-6 !mb-4 list-item">
